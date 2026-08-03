@@ -43,6 +43,16 @@ public class Operators {
                   In pre-increment, the value of the operand is incremented first by one,
                   then the incremented value of the operand is used.
 
+        " -- " -> Decrement => It is used to decrease the value of an operand by one.
+                  It can be done in two possible ways. One is post-decrement(operand--)
+                  and other is pre-decrement(--operand).
+
+                  In post-decrement, the value of the operand is used first,
+                  then its value is decreased by one.
+
+                  In pre-decrement, the value of the operand is decreased first by one,
+                  then the decremented value of the operand is used.
+
      */
 
 }
