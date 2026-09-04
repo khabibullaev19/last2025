@@ -62,6 +62,12 @@ public class DataTypesInJava {
         String myName = "Ali";
         System.out.println("myName: " + myName);
 
+        var myVar = 3;
+        //var myVar = 9.33; --> Error!!! Once var decided as an int, then it does not change!
+        myVar = (int) 9.33;
+
+        var myStringVar = "Ali";
+        myStringVar = "123"; //just value changing, not literal!
 
     }
 
